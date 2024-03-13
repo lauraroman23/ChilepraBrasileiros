@@ -1,0 +1,317 @@
+@media only screen and (max-width: 1024px){
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 960px){
+    .text-block{
+        position: absolute;
+        top: 20px;
+        left: 450px;
+    }
+
+    article{
+        margin: 20px;
+    }  
+
+    .footer_ul{
+        padding-left: 300px;
+    }
+
+    #forum p, #forum label{
+        font-size: 14.6px;
+    }
+
+    #mensagem{
+        width: 34%;
+    }
+
+    .txt_resp{
+        width: 43%;
+    }
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px){
+    .text-block{
+        position: absolute;
+        top: 20px;
+        left: 360px;
+    }
+
+    .text-block h1{
+        font-size: 35px;
+    }
+
+    .text-block h2{
+        font-size: 23px;
+    }
+
+    .main {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .row-intro{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .col-intro p, p, footer p, form label {
+        font-size: 14.3px;
+    }    
+
+    #forum, #forum p, #forum label, .pagination a {
+        font-size: 13.5px;
+    } 
+
+    #forum input{
+        margin-top: 5px;
+        font-size: 12.6px;
+    }
+
+    .buttonForum {
+        font-size: 12px;
+    }
+
+    #navbar, .footer_ul {
+        font-size: 15px;
+    }
+
+    .h2 {
+        font-size: 26px;
+    }
+
+    h3, h2{
+        font-size: 24px;
+    }
+
+    .row, .row2{
+        margin: 18px;
+    }
+
+    .column, .column2{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    #mensagem, input[type='text'], input[type='email']{
+        width: 35%;
+    }
+
+    .footer_ul{
+        padding-left: 200px;
+    }
+
+    ul.breadcrumb {
+        font-size: 17px;
+    }
+
+    .button{
+        font-size: 13px;
+    }
+
+    .txt_resp {
+        width: 53%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px){
+    .text-block{
+        position: absolute;
+        top: 15px;
+        left: 225px;
+    }
+
+    .text-block h1{
+        font-size: 22px;
+    }
+
+    .text-block h2{
+        font-size: 15px;
+    }
+
+    .col-intro p, footer p {
+        font-size: 13.5px;
+    }
+
+    .footer_ul{
+        padding-left: 50px;
+    }
+
+    /* Menu Mobile */
+    #navbar {
+        position: relative;
+    }
+
+    #navbar li{
+        padding: 0;
+        width: 100%;
+    }
+
+    #navbar #myLinks {
+        display: none;
+    }
+
+    #navbar a {
+        display: block;
+    }
+
+    #navbar a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }  
+
+    #mensagem, .txt_resp, input[type='text'], input[type='email'], .main, .column, .column2, 
+    .lista_forum, form input {
+        width: 100%;
+    }
+
+    form .checkbox{
+        width: 5%;
+    }
+
+    #forum input {
+        font-size: 13.4px;
+        padding: 4px;
+    }
+
+    .column, .column2 {
+        padding: 5px;
+    }
+
+    .comments{
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .text-block{
+        position: absolute;
+        top: 15px;
+        left: 180px;
+    }
+
+    .text-block h1{
+        font-size: 18px;
+    }
+
+    .text-block h2{
+        font-size: 13px;
+    } 
+
+    h3, h2{
+        font-size: 23px;
+    }
+
+    .h2 {
+        font-size: 24px;
+    }
+
+    .footer_ul{
+        padding-left: 60px;
+    }
+
+    .footer_ul li{
+        padding: 0;
+        margin: 10px;
+    }
+
+    ul.breadcrumb {
+        font-size: 15.5px;
+    }
+
+    .row, .row2, article{
+        margin: 15px;
+    }
+
+    form label, #forum, #forum p, #forum label{
+        font-size: 13.8px;
+    }
+
+    .buttonForum{
+        font-size: 11.5px;
+    } 
+}
+
+@media only screen and (max-width: 360px){
+    .text-block{
+        position: absolute;
+        top: 15px;
+        left: 168px;
+    } 
+
+    .text-block h2{
+        font-size: 13px;
+    }
+
+    .col-intro p {
+        font-size: 13.2px;
+    }
+
+    #forum{
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .text-block{
+        position: absolute;
+        top: 15px;
+        left: 155px;
+    }
+
+    .text-block h1{
+        font-size: 15px;
+    }
+
+    .text-block h2{
+        font-size: 11.7px;
+    }
+
+    .col-intro p {
+        font-size: 13px;
+    }
+
+    .row2{
+        margin: 10px;
+    }
+
+    .share-div .lista-redes ul li{
+        width: 10%;
+        padding: 3px;
+    }
+
+    .footer_ul{
+        padding-left: 30px;
+    }  
+
+    footer p {
+        font-size: 12.5px;
+    }
+    
+    form label, #forum, #forum p, #forum label{
+        font-size: 13.5px;
+    }
+
+    .h2{
+        font-size: 22px;
+    }
+
+    h2, h3{
+        font-size: 21px;
+    }
+}
